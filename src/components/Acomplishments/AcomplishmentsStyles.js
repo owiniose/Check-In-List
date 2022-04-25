@@ -71,7 +71,7 @@ export const SecondaryBtn = styled.button`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     margin-top: 16px;
-    margin-bottom: 40px;
+    margin-bottom: 12px;
     padding: 8px 16px;
     width: 100%;
     font-size: 14px;
@@ -161,9 +161,7 @@ export const Img = styled.img`
   padding-bottom: 0%;
 
 @media ${(props) => props.theme.breakpoints.sm} {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 0;
+  
   }
 `
 
@@ -185,7 +183,8 @@ export const Box = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    height: 110px;
+    margin-top: 4em;
+    height: max-content;
     padding: 12px;
     
     &:nth-child(2n){

@@ -12,7 +12,7 @@ const Acomplishments = () => (
     
   <Box>
     
-    <Img src={logo} alt="spin"/>
+    <Img src={logo} alt="logo"/>
     
    <SectionTitle> NFTY VACATION CLUB</SectionTitle>
    <BoxText>

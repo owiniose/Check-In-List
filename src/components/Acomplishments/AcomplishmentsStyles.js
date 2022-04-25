@@ -158,7 +158,7 @@ export const Img = styled.img`
   height:30%;
   margin:0 auto;
   display:block;
-  padding-bottom: 0%;
+  padding-bottom: 1em;
 
 @media ${(props) => props.theme.breakpoints.sm} {
   

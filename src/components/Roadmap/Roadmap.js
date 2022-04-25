@@ -7,9 +7,9 @@ import Line from '../Roadmap/Line.js'
 
 const Roadmap = () => {
   return (
-    <SectionTeam>
+    <SectionTeam id ="roadmap" >
         <SectionDivider divider />
-        <SectionTitle>Roadmap</SectionTitle>
+        <SectionTitle  >Roadmap</SectionTitle>
         <SectionAbout>
         The OG Wanderer collection will include 6060 NFTs. 60 will be held by the team for giveaways and marketing.
          The first 3000 members on our “Early Check In” list will earn the early mint price of 0.1ETH. 

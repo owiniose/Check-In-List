@@ -1,5 +1,4 @@
 import React from 'react';
-
 import logo from '../../../public/images/NVC_Gold.png'
 import { Box, Img, SectionTitle,BoxText,SocialIcons, SocialContainer,SectionText, SecondaryBtn } from './AcomplishmentsStyles';
 import { AiFillTwitterCircle, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
@@ -23,7 +22,7 @@ const Acomplishments = () => (
        community, and alpha, exclusive IRL member events, and more! 
 
 </BoxText>
-   <SecondaryBtn>Join the Allow List</SecondaryBtn>
+   <SecondaryBtn  >Learn More</SecondaryBtn>
    <SocialContainer>
           <SocialIcons href="https://twitter.com/Nftyvacation">
             <AiFillTwitterCircle size="3rem" />

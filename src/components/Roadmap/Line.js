@@ -3,7 +3,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import {BsFillStarFill} from 'react-icons/bs';
 
 import React from 'react';
-import { List, Listinner } from './lineStyles';
+import { List, Listinner } from './LineStyles';
 
 const Line = () => {
   return (

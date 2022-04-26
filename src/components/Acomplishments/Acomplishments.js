@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import logo from '../../../public/images/NVC_Gold.png'
 import { Box, Img, SectionTitle,BoxText,SocialIcons, SocialContainer,SectionText, SecondaryBtn } from './AcomplishmentsStyles';
@@ -21,8 +22,8 @@ const Acomplishments = () => (
       to additional travel discounts, travel concierge service, giveaways, NFT and travel experts,
        community, and alpha, exclusive IRL member events, and more! 
 
-</BoxText>
-   <SecondaryBtn  >Learn More</SecondaryBtn>
+</BoxText><Link href ="#roadmap">
+   <SecondaryBtn  >Learn More</SecondaryBtn></Link>
    <SocialContainer>
           <SocialIcons href="https://twitter.com/Nftyvacation">
             <AiFillTwitterCircle size="3rem" />

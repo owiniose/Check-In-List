@@ -186,6 +186,7 @@ export const Box = styled.div`
     margin-top: 4em;
     height: max-content;
     padding: 12px;
+    width: 90%;
     
     &:nth-child(2n){
       grid-row:2;
@@ -224,11 +225,12 @@ export const BoxText = styled.p`
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;
     line-height: 20px;
+    max-width: max-content;
   };
 
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 10px;
-    line-height: 14px;
+    font-size: 20px;
+    line-height: 30px;
   }
 `
 

@@ -30,7 +30,7 @@ const Acomplishments = () => (
           <SocialIcons href="https://discord.com">
             <FaDiscord size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://instagam.com/nfty_vacation_club">
+          <SocialIcons href="https://instagram.com/nfty_vacation_club">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>

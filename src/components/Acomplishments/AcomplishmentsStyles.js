@@ -50,7 +50,7 @@ export const SecondaryBtn = styled.button`
 
   &:hover {
     color: #0f1624;
-    background: #fff;
+    background: gold;
     border: 1px solid #fff;
   }
 
@@ -103,14 +103,14 @@ text-align:center;
 
 export const SectionTitle = styled.h2`
   font-weight: 800;
-  font-size: ${(props) => props.main ? '65px' : '56px'};
+  font-size: ${(props) => props.main ? '75px' : '66px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   text-align: center;
   letter-spacing: 0.1em;
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 16px;
+  margin-bottom: 50px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
 
   @media ${props => props.theme.breakpoints.md}{
@@ -215,7 +215,7 @@ export const BoxNum = styled.h5`
 export const BoxText = styled.p`
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 34px;
   text-align: center;
   letter-spacing: 0.02em;

@@ -3,7 +3,7 @@ export default {
   fonts: {
     title: "Roboto, sans-serif",
     main: "Barlow, sans-serif",
-    body: "Pompiere, cursive"
+    body: "Open Sans, sans-serif"
   },
   // Colors for layout
   colors: {

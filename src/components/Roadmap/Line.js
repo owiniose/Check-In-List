@@ -3,11 +3,12 @@ import 'react-vertical-timeline-component/style.min.css';
 import {BsFillStarFill} from 'react-icons/bs';
 
 import React from 'react';
-import { List, Listinner } from './LineStyles';
+import { List, Listinner,SecondaryBtn, SectionAbout, SectionTitle, RoadmapTitle } from './LineStyles';
 
 const Line = () => {
   return (
     <div>
+      <RoadmapTitle>The Trip</RoadmapTitle>
       <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -17,8 +18,8 @@ const Line = () => {
     iconStyle={{ background: 'white', color: 'gold' }}
     icon={<BsFillStarFill/>}
   >
-    <h1>Leg One</h1>
-    <h1>OG WANDERER uNFT</h1>
+    <SectionTitle>Leg One</SectionTitle>
+    <SectionAbout>OG WANDERER uNFT</SectionAbout>
     <List>
     ⦁	Mint: 6060 OG Membership tokens  
 
@@ -111,6 +112,7 @@ const Line = () => {
   
  
 </VerticalTimeline>
+<SecondaryBtn  >Join the Check-in List</SecondaryBtn>
 
     </div>
   )

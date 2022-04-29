@@ -269,10 +269,10 @@ export const SectionTextWorks = styled.h3`
 export const ListTitle = styled.h4`
   
   padding-top:1em;
-  padding-bottom:1em;
-  font-size: 25px;
+  padding-bottom:0.3em;
+  font-size: 30px;
   line-height: 30px;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   color: black;
 
   @media ${props => props.theme.breakpoints.md}{
@@ -281,10 +281,11 @@ export const ListTitle = styled.h4`
     }
     
     @media ${props => props.theme.breakpoints.sm}{
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: bolder;
     line-height: 28px;
     letter-spacing: 0.02em;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
     text-align: left;
     
 

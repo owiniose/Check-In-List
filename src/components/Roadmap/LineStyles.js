@@ -1,5 +1,31 @@
 import styled from 'styled-components'
 
+
+export const SocialContainer = styled.div`
+
+display: flex;
+  justify-content: start;
+  align-items: center;
+	@media ${props => props.theme.breakpoints.md}{
+		justify-content: center;
+		padding-right: 16px;
+		flex-wrap: wrap;
+	}
+  @media ${(props) => props.theme.breakpoints.sm} {
+    justify-content: left;
+}
+`
+
+export const Img = styled.img`
+  width:15%;
+  height:15%;
+  margin-left: 1em;
+
+@media ${(props) => props.theme.breakpoints.sm} {
+  
+  }
+`
+
 export const SectionTitle = styled.h6`
   font-weight: 800;
   font-size: 30px;
@@ -61,7 +87,7 @@ export const RoadmapTitle = styled.div`
 
 export const SectionAbout = styled.h4`
  
-  font-size: 20px;
+  font-size: 25px;
   /* line-height: 20px; */
   padding-bottom: 3.6rem;
   color: black;
@@ -71,13 +97,13 @@ export const SectionAbout = styled.h4`
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 32px;
     padding-bottom: 24px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     padding-bottom: 16px;
   }
@@ -148,7 +174,7 @@ font-weight: 600;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    
+    font-size: 18px;
   }
 `
 export const Listinner = styled.ul`

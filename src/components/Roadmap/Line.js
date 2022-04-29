@@ -1,9 +1,10 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import {BsFillStarFill} from 'react-icons/bs';
+import {BsFillStarFill} from 'react-icons/bs'; 
+import token from '../../../public/images/token.gif'
 
 import React from 'react';
-import { List, Listinner,SecondaryBtn, SectionAbout, SectionTitle, RoadmapTitle } from './LineStyles';
+import { Img, List, Listinner,SecondaryBtn, SectionAbout, SectionTitle, RoadmapTitle, SocialContainer } from './LineStyles';
 
 const Line = () => {
   return (
@@ -21,46 +22,14 @@ const Line = () => {
     <SectionTitle>Leg One</SectionTitle>
     <SectionAbout>OG WANDERER uNFT</SectionAbout>
     <List>
-    ⦁	Mint: 6060 OG Membership tokens  
-
-    <Listinner>
-    ⦁	Early Check In (Allow list) 3,000 @ .1ETH
-        </Listinner>
-    <Listinner>
-    ⦁	Member Check In 3,000 @ .15ETH
-            </Listinner>    
+      <SocialContainer>
+    ⦁	Mint 6060 NFTs <Img   src={token} alt="logo" /></SocialContainer>
 
       </List>
     
     
 
-    <List>
-    ⦁	1 NFT = 1 hotel voucher (3,4,5,7-night stays valued up to $1,750)
- </List>
-    <List>
-    ⦁	2 of every 1000 minted will win airfare and expenses paid up to additional $1,500 on us!
-   <Listinner> ⦁	That’s 12 lucky winners of a $3,000-$5,000 vacation </Listinner> 
- 
-    </List>
-    <List>
-    ⦁	1 Grand Prize winner of all expense paid trip plus an additional 1ETH
-    </List>
-   
-    <List>
-    ⦁	Voucher Redemption Form
-    </List>
-    <List>
-    ⦁	Deliver Vacation Vouchers (7-day redemption window)
-    </List>
-    <List>
-    ⦁	Discord giveaways
-    </List>
-    <List>
-    ⦁	Discord Travel Alpha
-    </List>
-    <List>
-    ⦁	NFT Alpha access
-    </List>
+
 
 
   </VerticalTimelineElement>
@@ -74,22 +43,12 @@ const Line = () => {
    >
      <h1>Leg Two</h1>
   
-     <List>
-     ⦁	Full-service travel concierge service
- </List>
-     
-     <List>
-     ⦁	Travel Industry partnerships
-
-         </List>
-     <List>
-     ⦁	NFT project partnerships for IRL community events
-     ⦁	Cruises, resorts, etc.
-
-             </List>
+     <SectionAbout>IMMEDIATE UTILITY</SectionAbout>
 
     <List>
-    ⦁	Event / location specific NFT drops
+    ⦁	Event / Location specific NFT drops 
+    <br/>
+    ⦁	Travel Vouchers, Vacation Winners and Referral Bonuses go out.
 
     </List>
  
@@ -103,9 +62,31 @@ const Line = () => {
      icon={<BsFillStarFill/>}
    >
      <h1>Leg Three</h1>
+
+     <SectionAbout>PARTNERSHIPS AND CONCIERGE SERVICES</SectionAbout>
   
      <List>
-     ⦁	NFTY Vacation Club Resort  </List>
+     ⦁	Align partnerships for additional membership travel perks, discounts and events<br/>
+
+      ⦁	Establish NVC Cocierge Service</List>
+      
+ 
+  </VerticalTimelineElement>
+
+  <VerticalTimelineElement
+     className="vertical-timeline-element--work"
+     contentStyle={{ background: 'white', color: 'black' }}
+     contentArrowStyle={{ borderRight: '7px solid  white' }}
+     date=""
+     iconStyle={{ background: 'white', color: 'gold' }}
+     icon={<BsFillStarFill/>}
+   >
+     <h1>Leg Four</h1>
+
+     <SectionAbout>NFTY VACATION CLUB RESORT</SectionAbout>
+  
+     <List>
+     ⦁	 Purchase a boutique Hotel & Resort</List>
       
  
   </VerticalTimelineElement>

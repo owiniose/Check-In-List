@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import dude from '../../../public/images/logo.png'
 
 
 export const SectionTeam = styled.section`
@@ -12,6 +13,12 @@ export const SectionTeam = styled.section`
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
   background-color : white;
+  background-image: url(${dude});
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 700px 700px;
+  background-repeat: no-repeat;
+ 
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
@@ -179,6 +186,7 @@ export const SectionAbout = styled.p`
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 16px;
+    text-align: left;
   }
 `
 

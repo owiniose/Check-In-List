@@ -9,7 +9,7 @@ import { Img, List, Listinner,SecondaryBtn, SectionAbout, SectionTitle, RoadmapT
 const Line = () => {
   return (
     <div>
-      <RoadmapTitle>The Trip</RoadmapTitle>
+      <RoadmapTitle>The Full Itinerary</RoadmapTitle>
       <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
